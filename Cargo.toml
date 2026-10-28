@@ -1,0 +1,13 @@
+[package]
+name = "pensionsahayak_ai"
+version = "0.1.0"
+edition = "2021"
+description = "PensionSahayak AI: Digital Life Certificates, Grievance SLA Tracking and Sovereign Pension Escrow"
+license = "Apache-2.0"
+
+[dependencies]
+candid = "0.10"
+serde = { version = "1.0", features = ["derive"] }
+
+[lib]
+crate-type = ["cdylib", "lib"]
